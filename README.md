@@ -1,6 +1,6 @@
 # goraniiii.github.io
 
-<b>Goun Park's personal web portfolio</b>
+<b>Goun Park's personal portfolio</b>
 
 <b>[goraniiii.github.io](http://goraniiii.github.io)</b>
 
