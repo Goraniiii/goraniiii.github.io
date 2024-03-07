@@ -6,8 +6,8 @@
 
 ## 
 
-<li>made by react</li>
-<li>published by gh-pages</li>
+<li>made by using react</li>
+<li>published by using gh-pages</li>
 
 <li> designed by Goun Park </li>
 <li> developed by Goun Park </li>
