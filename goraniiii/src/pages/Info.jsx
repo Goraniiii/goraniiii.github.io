@@ -1,6 +1,6 @@
 import { Header } from "../components/Header";
 
-export function Home () {
+export function Info () {
   return (
     <>
       <Header />
@@ -40,16 +40,6 @@ export function Home () {
             {/* <li>Human Computer Interaction</li> */}
             <li>Graphics</li>
             <li>Media art</li>
-          </div>
-        </div>
-        <div>
-          <h3>Projects</h3>
-          <div>
-            <div>
-              <div>IJOA</div>
-              <div>웹 기반 공유형 긴급 아이돌봄 서비스</div>
-              <div>2023.03 ~ 2023.11, 2024.02 ~ current(refactoring)</div>
-            </div>
           </div>
         </div>
         <div style={{ marginTop: 30 }}>Copyright 2024. Goun Park all rights reserved.</div>
