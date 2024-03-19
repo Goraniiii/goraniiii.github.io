@@ -1,4 +1,5 @@
 import { Header } from "../components/Header";
+import { styled } from "styled-components";
 
 export function Info () {
   return (
@@ -6,11 +7,11 @@ export function Info () {
       <Header />
 
       <div style={{ justifyContent: "space-around", flexDirection: 'row', padding: '80px 10vw 30px' }}>
-        <div>github <a href="http://github.com/goraniiii">github.com/goraniiii</a></div>
         <div>
           <h3>Contact</h3>
           <div>
-            <div>mailto <a href="mailto:gony06011@gmail.com">gony06011@gmail.com</a></div>
+            <div>mailto: <Link href="mailto:gony06011@gmail.com">gony06011@gmail.com</Link></div>
+            <div>github: <Link href="http://github.com/goraniiii">github.com/goraniiii</Link></div>
           </div>
         </div>
         <div>
@@ -30,15 +31,30 @@ export function Info () {
             <li>Java</li>
             <li>Javascript</li>
             <li>React</li>
+            <li>MySQL</li>
+            <li>Git(GitHub/GitLab)</li>
+            <li>Docker</li>
+          </div>
+        </div>
+        <div>
+          <h3>Also studying...</h3>
+          <div>
+            <li>Typescript</li>
+            <li>WebGL</li>
+            <li>three.js</li>
+            <li>Figma</li>
+            <li>OpenGL</li>
+            <li>TouchDesigner</li>
           </div>
         </div>
         <div>
           <h3>Interests</h3>
           <div>
-            <li>Web Develope</li>
+            <li>Web Developement</li>
+            <li>UI/UX</li>
             <li>Interaction Design</li>
             {/* <li>Human Computer Interaction</li> */}
-            <li>Graphics</li>
+            <li>Computer Graphics</li>
             <li>Media art</li>
           </div>
         </div>
@@ -47,3 +63,14 @@ export function Info () {
     </>
   )
 }
+
+const Link = styled('a')(() => ({
+  color: 'navy',
+  textDecoration: 'none',
+  fontWeight: 550,
+  '&:hover': {
+    textDecoration: 'underline',
+    color: "gray"
+  }
+
+}))
